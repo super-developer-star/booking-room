@@ -1,0 +1,52 @@
+.rcomui-overlay {
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,255,255,0.85);
+	display: none;
+}
+.rcomui-overlay.show {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*color: #2bbbe4*/
+}
+
+.rcomui-overlay h6{
+	margin-top: 30px;
+}
+
+.rcomui-overlay .fa{
+	font-size: 50px;
+	color: #2bbbe4
+}
+
+.fa-spin-custom, .glyphicon-spin {
+  -webkit-animation: spin 3000ms infinite linear;
+  animation: spin 3000ms infinite linear;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+

@@ -1,0 +1,262 @@
+* {
+	outline: none;
+}
+body {
+	margin: 0;
+	font-family: "PT Sans", sans-serif;
+}
+.clearfix {
+	clear: both;
+}
+.wrapped {
+	white-space: normal;
+}
+.form-control {
+	border-radius: 2px !important;
+}
+
+.filter-bar {
+	width: 100%;
+	min-width: 1204px;
+	clear: both;
+	background: #fafafa;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.24);
+	margin-bottom: 2px;
+	height: 150px;
+}
+.filter-bar img {
+	margin: 20px;
+	width: 66px;
+}
+.filter-bar input {
+	display: block;
+	height: auto;
+	padding: 8px 14px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	color: #555555;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid rgba(0,0,0,.16);
+}
+.filter-bar input#check-text {
+	width: 633px;
+	display: block;
+	float: left;
+}
+.filter-bar input#check-date {
+	width: 300px;
+	text-align: center;
+	background-color: white;
+}
+label {
+	color: #515253;
+	text-align: center;
+	font-weight: normal;
+	font-size: 13px;
+}
+.check-text-wrapper {
+	margin: 20px 0 10px;
+}
+
+.side-bar {
+	width: 403px;
+	height: 800px;
+	float: left;
+	box-shadow: 1px 0 2px rgba(0,0,0,.25);
+	list-style: none;
+	margin-bottom: 0;
+	overflow-y: auto;
+	display: block;
+	position: relative;
+}
+.side-bar .sortby {
+    border-bottom: 1px solid #ebebeb;
+    padding: 0px 15px;
+    color: #888;
+    font-size: 13px;	
+}
+.side-bar .sortby a {
+	text-decoration: none;
+	text-align: center;
+	color: #666;
+	padding: 12px 10px 9px;
+	border-bottom: 3px solid transparent;
+	display: inline-block;
+	cursor: pointer;
+}
+.side-bar .sortby a:hover, .side-bar .sortby a.selected {
+	/*border-bottom-color: #2bbbe4;*/	
+}
+.side-bar .sortby a.selected {
+	border-bottom-color: #2bbbe4;
+	font-weight: bold;
+}
+.side-bar ul {
+	padding-left: 0;
+	margin-left: 0;	
+}
+.side-bar li {
+	display: table;
+	table-layout: fixed;
+	width: 100%;	
+	min-height: 58px;
+	border-bottom: 1px solid #ebebeb;
+}
+.side-bar li.selected {
+	background-color: #2bbbe4;
+}
+
+.side-bar li a {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;	
+	cursor: pointer;
+	text-decoration: none;    
+	border-width: 0;
+	font-size: 13px;
+	line-height: 16px;
+	color: rgba(0,0,0,.54);
+	position: relative;    
+	background-color: white;
+	margin: 2px;
+}
+.side-bar li a:hover {
+	background: #fafafa;
+}
+.side-bar li a .wrapper {
+	padding: 13px 0 0px 16px;
+	margin-bottom: 13px;	
+	margin-right: 16px;
+	position: relative;
+}
+.side-bar li a .stars {
+	display: inline-block;
+} 
+.side-bar li .thumb {
+	height: 90px;
+	float: right;
+	margin: 0 0 8px 8px;
+	overflow: hidden;
+	position: relative;
+	width: 90px;
+	padding-top: 3px;	
+}
+.side-bar li .price-wrapper {
+	float: right;
+	margin-left: 14px;
+	padding-right: 8px;
+	position: relative;	
+}
+.side-bar li .price-wrapper span {
+	background-color: transparent;
+	color: #222;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	min-width: 44px;
+	text-align: right;
+	top: 13px;	
+	display: block;
+}
+.side-bar li .title {
+	color: #222;
+	font-size: 16px;
+	padding-bottom: 1px;
+	line-height: 20px;
+	margin-bottom: -1px;
+	overflow: hidden;
+/*    text-overflow: ellipsis;
+	white-space: nowrap;*/
+}
+.details>div {
+	padding-bottom: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.details .rate {
+	color: #2bbbe4;
+	margin-top: 5px;
+	float: left;
+}
+.details .rating {
+	float: left;
+	margin: 4px 5px;
+}
+.details .hotel-stars {
+	float: left;
+	margin-top: 5px;
+}
+.side-bar li .space1 {
+	display: block;
+	margin-bottom: 6px;
+}
+.ig {
+	margin-right: 12px;	
+}
+.qg {
+	display: inline-table;
+	line-height: 17px;
+}
+.qg .amenity-icon {
+	opacity: 0.54;
+}
+.rg {
+	display: table-cell;
+	width: 17px;
+	vertical-align: top;
+}
+.zg {
+	display: inherit;
+	margin-left: 6px;
+}
+.has {
+	background-image: url(../img/amenities5_1x.png);
+	background-repeat: no-repeat;
+	background-size: 16px;
+	display: block;
+	height: 17px;
+	margin-top: -1px;
+	font-size: 17px;
+}
+.free-breakfist {
+	background-position: 0 0px;
+}
+.free-wifi{
+	background-position: 0 -68px;
+}
+.free-parking {
+	background-position: 0 -136px;
+}
+.side-bar li .thumb img {
+	border: 0;
+	left: -35px;
+	position: relative;
+	top: 0px;
+	height: 90px;
+	width: 160px
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.map-container {
+	float: left;
+	width: calc(100% - 403px);	
+	position: relative;
+	overflow-y: auto;
+}
+
+.parsley-errors-list > li {
+	display: none;
+}
+
+.c-checkbox .parsley-error span {
+	border-color: #f05050 !important;
+}

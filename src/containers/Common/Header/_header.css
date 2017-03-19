@@ -1,0 +1,39 @@
+#root {
+	height: 100%;
+}
+.layout-boxed {
+	background: #f5f7fa;
+	font-size: 1.4rem;
+	height: 100%;
+}
+
+header .topnavbar {
+    background-color: #efefef;
+}
+
+header .topnavbar .navbar-right {
+    height: 68px;
+    line-height: 68px;
+}
+	header .topnavbar .navbar-right li {
+	    display: inline-block;
+	    vertical-align: middle;
+	    float: none;
+	    margin-right: 10px;
+	}
+
+body .topnavbar .navbar-nav > li > a, body .topnavbar .navbar-nav > .open > a {
+    color: #23b7e5;
+}
+
+header .topnavbar .navbar-header {
+    text-align: center;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+	    padding-top: 17px;
+	    padding-bottom: 17px;
+	}
+}

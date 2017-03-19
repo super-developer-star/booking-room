@@ -1,0 +1,36 @@
+.search-box .panel-primary {
+    border-color: #cfdbe2;
+}
+
+.search-box button.btn-red {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.search-box form #check-date {
+	background-color: white;
+}
+
+.form-horizontal .control-label {
+	margin-bottom: 5px;
+}
+
+.room-row-count {
+	margin-bottom: 0;
+}
+
+.room-row-count h4 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.search-box .input-hotel {
+	width: 100%;
+}
+	.search-box .input-hotel div{
+		z-index: 999999999;
+		position: relative;
+	}
+.search-box form .required {
+	border-color: red;
+}

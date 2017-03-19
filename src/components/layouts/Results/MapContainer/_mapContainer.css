@@ -1,0 +1,13 @@
+.leaflet-popup-content {
+	margin-bottom: 8px;
+	min-width: 190px;
+}
+.leaflet-popup-content .details .rating {
+	margin: 0px 5px;
+}
+.leaflet-popup-content .details>div {
+	padding-bottom: 0;
+}
+.leaflet-bottom.leaflet-right {
+	display: none;
+}

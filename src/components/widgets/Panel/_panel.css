@@ -1,0 +1,160 @@
+.item-panel {
+	width: 490px;
+	position: absolute;
+	margin: 7px;
+	z-index: 2;
+	background: #fff;
+		box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+		/*font-family: 'Roboto',arial,sans-serif;*/
+		font-family: 'PT Sans', sans-serif;
+		padding: 15px;
+		border-radius: 2px;
+}
+
+.item-panel h1 {
+	display: block;
+		margin-right: 40px;
+		overflow: visible;
+		padding-bottom: 2px;
+
+		color: rgba(0,0,0,.87);
+		line-height: 1.2;
+		margin-bottom: -3px;
+		overflow: hidden;
+		/*font-family: arial,sans-serif-light,sans-serif;*/
+		display: inline;
+		font-size: 30px;
+		font-weight: normal;
+		position: relative;
+		transform-origin: left top;
+		transform-origin: left top;
+		word-wrap: break-word;
+}
+.item-panel h2{
+		font-size: 18px;
+		line-height: 15px;
+		margin: 0;
+		padding: 0;
+}
+.item-panel span, .item-panel p {
+		font-size: 13px;
+}
+
+.item-panel hr {
+	margin: 10px 0;
+}
+.item-panel .details {
+		padding-top: 5px;
+		height: 27px;
+}
+.item-panel .details .rating {
+	margin-top: 1px;
+		margin-bottom: 0;
+}
+.item-panel .details .btns {
+		float: right;
+		margin-top: -3px;
+}
+.item-panel .btn-small {
+		padding: 2px 8px;
+		font-size: 13px;
+		margin-left: 5px;
+		text-transform: none;
+}
+.item-panel .thumb img {
+	max-width: 100%;
+}
+.item-panel .close {
+		background-image: url('/img/close.png');
+		cursor: pointer;
+		height: 24px;
+		opacity: .3;
+		position: absolute;
+		width: 24px;
+		z-index: 2;	
+		display: block;
+		right: 15px;
+}
+
+.item-panel .hotel-details {
+		border-bottom: 1px solid #ebebeb;
+		padding: 20px 0 0px;
+}
+
+.item-panel .hotel-details .descriptions {
+		margin-top: 7px;
+}
+.item-panel .hotel-details .descriptions a {
+	cursor: pointer;
+}
+
+
+.Collapsible {
+	background-color: white; 
+}
+
+.Collapsible__contentInner {
+	padding: 5px 25px;
+	border: 1px solid #ebebeb;
+	border-top: 0; 
+}
+	.Collapsible__contentInner .row {
+		border-bottom: 1px dotted #efefef;
+		margin: 5px -15px;
+	}
+		.Collapsible__contentInner .col-md-8 {
+			padding-top: 6px;
+		}
+		.Collapsible__contentInner .col-md-8, .Collapsible__contentInner .col-md-2 {
+			padding-right: 5px;
+			padding-left: 5px;
+			margin-top: -5px;
+		}
+	.Collapsible__contentInner .btn {
+		margin: 3px 0;
+	}
+	.Collapsible__contentInner p {
+		margin-bottom: 10px;
+		font-size: 14px;
+		line-height: 20px; 
+	}
+		.Collapsible__contentInner p:last-child {
+			margin-bottom: 0; 
+		}
+
+.Collapsible__trigger {
+	display: block;
+	font-weight: 400;
+	text-decoration: none;
+	color: #333333;
+	position: relative;
+	border: 1px solid #2bbbe4;
+	padding: 5px 10px;
+	background: #2bbbe4;
+	color: white; 
+}
+	.Collapsible__trigger:after {
+		font-family: 'FontAwesome';
+		content: '\f107';
+		position: absolute;
+		right: 10px;
+		top: 5px;
+		display: block;
+		transition: transform 300ms; 
+}
+	.Collapsible__trigger.is-open:after {
+		transform: rotateZ(180deg); 
+}
+	.Collapsible__trigger.is-disabled {
+		opacity: 0.5;
+		background-color: grey; 
+}
+
+.CustomTriggerCSS {
+	background-color: lightcoral;
+	transition: background-color 200ms ease; 
+}
+
+.CustomTriggerCSS--open {
+	background-color: darkslateblue; 
+}

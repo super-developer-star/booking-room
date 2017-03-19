@@ -1,0 +1,192 @@
+.input-range__slider {
+	border: 0;
+	appearance: none;
+	background: #2bbbe4;
+	/* border: 8px solid #2bbbe4; */
+	border-radius: 0%;
+	cursor: pointer;
+	display: block;
+	margin-left: -0.5rem;
+	margin-top: -13px;
+	outline: none;
+	position: absolute;
+	top: 50%;
+	transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+	width: 10px; 
+	height: 18px;	
+	border-bottom: 2px solid #259fc2;
+}
+.input-range__slider:active {
+	transform: scale(1.1); 
+}
+.input-range__slider:focus {
+	box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2); 
+}
+.input-range--disabled .input-range__slider {
+	background: #cccccc;
+	border: 1px solid #cccccc;
+	box-shadow: none;
+	transform: none; 
+}
+
+.input-range__slider-container {
+	transition: left 0.3s ease-out; 
+}
+
+.input-range__label {
+	color: #aaaaaa;
+	/*font-family: "Helvetica Neue", san-serif;*/
+	font-size: 0.8rem;
+	transform: translateZ(0);
+	white-space: nowrap; 
+}
+
+.input-range__label--min,
+.input-range__label--max {
+	bottom: -1.4rem;
+	position: absolute; 
+}
+
+.input-range__label--min {
+	left: 0; 
+}
+
+.input-range__label--max {
+	right: 0; 
+}
+
+.input-range__label--value {
+	position: absolute;
+	top: -1.8rem; 
+}
+
+.input-range__label-container {
+	left: -50%;
+	position: relative; 
+	display: none;
+}
+.input-range__label--max .input-range__label-container {
+	left: 50%; 
+}
+
+.input-range__track {
+	background: #d3d7d8;
+	border-radius: 0;
+	cursor: pointer;
+	display: block;
+	height: 8px;
+	position: relative;
+	transition: left 0.3s ease-out, width 0.3s ease-out; 
+}
+.input-range--disabled .input-range__track {
+	background: #eeeeee; 
+}
+
+.input-range__track--background {
+	left: 0;
+	margin-top: -0.15rem;
+	position: absolute;
+	right: 0;
+	top: 50%; 
+}
+
+.input-range__track--active {
+	background: #43cdf5; 
+}
+
+.input-range {
+	margin-top: 12px;
+	position: relative;
+	width: 100%; 
+}
+
+.filter-opts .pull-left {
+	margin-right: 30px;
+}
+.filter-opts .pull-left select {
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.night-rate {
+	width: 200px;
+}
+
+.amenities select {
+    width: 120px;
+}
+
+.hotel-class .react-select-box-container, .hotel-class .react-select-box-options {
+	width: 100px;
+}
+.btn-red {
+	background: #d23a2a;
+    border-bottom: 4px solid #b33124;
+    /*font-family: 'Montserrat', Helvetica, Arial, sans-serif;*/
+    text-transform: uppercase;
+    color: #fff !important;
+	border-radius: 0;   
+	outline: none !important;
+}
+.btn-red:hover {
+	color:#fff;
+	background:#b33124;
+}
+.btn-red:active {
+	background: #9e2c21
+}
+.btn-blue {
+    background: #2bbbe4;
+    border-bottom: 4px solid #259fc2;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0;   
+}
+.btn-blue:hover {
+	color:#fff;
+	background:#2e9bb9
+}
+.search-btn {
+	width: 200px;
+    display: block;
+    float: left;
+    margin-left: 15px;
+    padding: 5px 10px;
+	font-size: 18px;
+}
+
+.daterangepicker_input {
+	display: none;
+}
+.daterangepicker {
+    padding: 0px;
+}
+.daterangepicker .calendar {
+    margin: 0;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #2bbbe4 !important;
+    border-radius: 0;
+}
+.daterangepicker td.available:hover, .daterangepicker th.available:hover { 
+    background-color: rgba(43, 187, 227, 0.6); 
+}
+.daterangepicker td.in-range {
+    background-color: rgba(43, 187, 227, 0.3); 
+}
+.daterangepicker th {
+    border-radius: 0;
+}
+.daterangepicker thead tr:first-child {
+    background: #2bbbe4;
+}
+.daterangepicker thead tr:first-child th{
+    color: white;
+}
+.daterangepicker:before, .daterangepicker:after {
+    border-bottom-color: #2bbbe4 !important;
+}
+.daterangepicker .calendar-table {
+    border: 4px solid #2bbbe4;
+}
